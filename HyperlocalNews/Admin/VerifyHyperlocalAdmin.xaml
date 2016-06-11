@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="#dddddd" xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HyperlocalNews.VerifyHyperlocalAdmin"
+xmlns:i18n="clr-namespace:HyperlocalNews;assembly=HyperlocalNews">
+	<ContentPage.Content>
+		<AbsoluteLayout>
+			<StackLayout x:Name="layout" VerticalOptions="CenterAndExpand" HorizontalOptions="Fill" AbsoluteLayout.LayoutBounds="0, 00, 1, 1" AbsoluteLayout.LayoutFlags="All">
+
+				<Frame Padding = "10,20,0,0">
+					<Label XAlign="Start" Text="{i18n:Translate HyperlocalTitle}" />
+	           	</Frame>
+
+	           	<Button x:Name="Hyperlocal"
+	           			Text = "{i18n:Translate SelectHyperlocalLabel}"
+	          	 		Clicked="SelectHyperlocal" />
+	           	
+	        </StackLayout>
+
+            <StackLayout x:Name="ActivityView" 
+            			 AbsoluteLayout.LayoutBounds="0.5, 0.3, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                         VerticalOptions="FillAndExpand"
+                         HorizontalOptions="FillAndExpand"
+                         BackgroundColor="Black" Opacity="0.3"
+                         IsVisible="false" >
+
+            	<ActivityIndicator
+            				   IsVisible="true"
+                               IsRunning="true"
+                               Color="#ffffff"
+            					VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="Center" 
+                               />
+				</StackLayout>
+			
+		</AbsoluteLayout>
+	</ContentPage.Content>
+</ContentPage>

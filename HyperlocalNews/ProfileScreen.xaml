@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="HyperlocalNews.ProfileScreen"
+	xmlns:local="clr-namespace:HyperlocalNews;assembly=HyperlocalNews"
+    xmlns:i18n="clr-namespace:HyperlocalNews;assembly=HyperlocalNews" 
+	BackgroundColor="#dddddd" 
+	Title="{i18n:Translate ProfileLabel}">
+	<ContentPage.Content>
+
+		<AbsoluteLayout>
+
+		<ScrollView Orientation="Vertical" AbsoluteLayout.LayoutBounds="0, 00, 1, 1" AbsoluteLayout.LayoutFlags="All">
+			<StackLayout x:Name="layout" VerticalOptions="CenterAndExpand" HorizontalOptions="Fill">
+			
+				<Frame Padding = "10,20,0,0">
+		           	<Label XAlign="Start" Text="{i18n:Translate FullNameLabel}" />
+	           	</Frame>
+	           	<local:StyledEntry x:Name="FullName" Text = "" />
+
+				<Frame Padding = "10,20,0,0">
+					<Label XAlign="Start" Text="{i18n:Translate EmailLabel}" />
+	           	</Frame>
+	           	<local:StyledEntry x:Name="Email"
+	           			Text = "" />
+
+	           	<Frame Padding = "10,20,10,0">
+					<Label XAlign="Start" Text="{i18n:Translate HyperlocalDescriptionText}" />
+				</Frame>
+				<Frame Padding = "10,10,10,0">
+					<Label XAlign="Start" Text="{i18n:Translate HyperlocalTitle}" />
+				</Frame>
+	           	<Button x:Name="Hyperlocal"
+	       				Text = "{i18n:Translate NewsSendTitle}"
+	          	 		Clicked="SelectHyperlocal"/>
+
+	           	<Frame Padding = "10,20,10,0">
+					<Label XAlign="Start" Text="{i18n:Translate PreferredLanguageLabel}" />
+				</Frame>
+	           	<Button x:Name="Language"
+	          	 		Clicked="SwitchLanguage"/>
+	        </StackLayout>
+
+	        </ScrollView>
+
+	        <StackLayout x:Name="ActivityView" 
+            			 AbsoluteLayout.LayoutBounds="0.5, 0.3, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                         VerticalOptions="FillAndExpand"
+                         HorizontalOptions="FillAndExpand"
+                         BackgroundColor="Black" Opacity="0.3"
+                         IsVisible="false">
+
+            	<ActivityIndicator
+            				   IsVisible="true"
+                               IsRunning="true"
+                               Color="#ffffff"
+            					VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="Center" 
+                               />
+			</StackLayout>
+
+        </AbsoluteLayout>
+	</ContentPage.Content>
+</ContentPage>

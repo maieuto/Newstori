@@ -1,0 +1,10 @@
+﻿{
+	"Report": {
+					"en_GB": "Report",
+					"cy_GB": "Reportio"
+				},
+	"stringKey2": {
+					"en_GB": "Thanks",
+					"cy_GB": "Merci"
+				}
+}

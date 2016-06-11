@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="AppTitle" xml:space="preserve">
+	    <value>Newstori</value>
+	    <comment>3 CN02</comment>
+	</data>
+	<data name="IntroText" xml:space="preserve">
+	    <value>Oes gennych chi newyddion? Rhannwch e! Dywedwch wrth eich gwasanaeth newyddion cymunedol beth sy'n digwydd yn eich hardal chi. Rhannwch adroddiadau, lluniau a digwyddiadau a helpwch eich cymuned i gadw mewn cysylltiad.</value>
+	    <comment>4 CN02</comment>
+	</data>
+	<data name="ConnectionErrorLabel" xml:space="preserve">
+		<value>Cywiriad Cyswllt - ni allem gysylltu â gweinydd Newstori ar hyn o bryd, ceisiwch eto os gwelwch yn dda</value>
+	</data>
+	<data name="SignUpLabel" xml:space="preserve">
+	    <value>Newydd i Newstori?  Cofrestrwch</value>
+	    <comment>5  CN02</comment>
+	</data>
+	<data name="LoginLabel" xml:space="preserve">
+	    <value>Yn ddefnyddiwr eisoes? Mewngofnodwch</value>
+	    <comment>6  CN02</comment>
+	</data>
+	<data name="TermsConditionsLabel" xml:space="preserve">
+	    <value>Telerau ac amodau</value>
+	    <comment>7  CN02</comment>
+	</data>
+	<data name="TermsConditionsText" xml:space="preserve">
+	    <value>Tects y telerau ac amodau</value>
+	    <comment>8  CN02</comment>
+	</data>
+	<data name="JoinLabel" xml:space="preserve">
+	    <value>Ymuno</value>
+	    <comment>9  CN02</comment>
+	</data>
+	<data name="StartLabel" xml:space="preserve">
+	    <value>Dechrau</value>
+	    <comment>10  CN02</comment>
+	</data>
+	<data name="FullNameLabel" xml:space="preserve">
+	    <value>Enw llawn</value>
+	    <comment>11  CN03</comment>
+	</data>
+	<data name="EmailLabel" xml:space="preserve">
+	    <value>E-bost</value>
+	    <comment>12  CN03</comment>
+	</data>
+	<data name="ReportSubmittedTitle" xml:space="preserve">
+	    <value>Adroddiad wedi'i anfon</value>
+	</data>
+	<data name="ReportSubmittedLabel" xml:space="preserve">
+	    <value>mae'ch adroddiad wedi'i anfon</value>
+	</data>
+	<data name="ReportSavedTitle" xml:space="preserve">
+	    <value>Arbedwyd yr Adroddiad</value>
+	</data>
+	<data name="ReportSavedLabel" xml:space="preserve">
+	    <value>Arbedwyd yr adroddiad i ffeil drafft</value>
+	</data>
+	<data name="LocationNeededTitle" xml:space="preserve">
+	    <value>Ni ellid cyflwyno</value>
+	</data>
+	<data name="LocationNeededLabel" xml:space="preserve">
+	    <value>Mae adroddiadau angen lleoliad i gael eu cyflwyno</value>
+	</data>
+	<data name="SubmissionFailedTitle" xml:space="preserve">
+	    <value>Methodd y Cyflwyno</value>
+	</data>
+	<data name="SubmissionFailedLabel" xml:space="preserve">
+	    <value>Mae'n ddrwg gennym ni ellir cyflwyno eich adroddiad oherwydd: </value>
+	</data>
+
+
+	<data name="DiscardLabel" xml:space="preserve">
+	    <value>Gwared</value>
+	</data>
+	<data name="NewReportLabel" xml:space="preserve">
+	    <value>Adroddiad newydd</value>
+	</data>
+	<data name="SubmitLabel" xml:space="preserve">
+	    <value>Cyflwyno</value>
+	</data>
+	<data name="SubmitLabelAlternative" xml:space="preserve">
+	    <value>Anfon</value>
+	</data>
+	<data name="DoneLabel" xml:space="preserve">
+	    <value>Wedi'i wneud</value>
+	</data>
+	<data name="SaveAsDraftLabel" xml:space="preserve">
+	    <value>Arbed fel draft</value>
+	</data>
+	<data name="ConfirmLabel" xml:space="preserve">
+	    <value>Cadarnhau</value>
+	</data>
+	<data name="PreferredLanguageLabel" xml:space="preserve">
+	    <value>Dewis Iaith</value>
+	</data>
+
+
+
+	<data name="ProfileUpdateAlertTitle" xml:space="preserve">
+	    <value>Diweddaru proffil</value>
+	</data>
+	<data name="ProfileUpdateAlertLabel" xml:space="preserve">
+	    <value>Mae eich proffil wedi ei ddiweddaru</value>
+	</data>
+	<data name="ProfileUpdateAlertTitleREVERSE" xml:space="preserve">
+	    <value>Profile Updated</value>
+	</data>
+	<data name="ProfileUpdateAlertLabelREVERSE" xml:space="preserve">
+	    <value>Your profile has been updated</value>
+	</data>
+	<data name="OKLabelREVERSE" xml:space="preserve">
+	    <value>OK</value>
+	</data>
+	<data name="UpdateLabel" xml:space="preserve">
+	    <value>Diweddariad</value>
+	</data>
+	<data name="UpdateFailedTitle" xml:space="preserve">
+	    <value>Methu diweddaru</value>
+	</data>
+	<data name="UpdateFailedLabel" xml:space="preserve">
+	    <value>Mae'n ddrwg gennym ond dyw hi ddim yn bosib diweddaru eich proffil ar hyn o bryd. </value>
+	</data>
+
+	<data name="BackLabel" xml:space="preserve">
+	    <value>Yn ôl</value>
+	</data>
+
+	<data name="OKLabel" xml:space="preserve">
+	    <value>Iawn</value>
+	</data>
+
+	<data name="SelectHyperlocalLabel" xml:space="preserve">
+	    <value>Dewisiwch wasaneth newyddion</value>
+	</data>
+
+	<data name="VerificationAlertTitle" xml:space="preserve">
+	    <value>Cais am wirio wedi ei brosesu</value>
+	</data>
+
+	<data name="VerificationAlertLabel" xml:space="preserve">
+	    <value>Edrychwch ar eich ebyst. Gwiriad o'r defnyddiwr wedi ei archebu</value>
+	</data>
+
+	<data name="GuideLabel" xml:space="preserve">
+	    <value>Canllaw gohebu</value>
+	</data>
+
+	<data name="ExportLabel" xml:space="preserve">
+	    <value>Allforio</value>
+	</data>
+
+	<data name="UserFeedbackResponse" xml:space="preserve">
+	    <value>Adborth defnyddiwr</value>
+	</data>
+
+	<data name="JoinButtonLabel" xml:space="preserve">
+	    <value>Wedi'i gwblhau</value>
+	</data>
+
+	<data name="ClaimButtonLabel" xml:space="preserve">
+	    <value>Derbyn</value>
+	</data>
+
+	<data name="DeclinedButtonLabel" xml:space="preserve">
+	    <value>Gwrthod</value>
+	</data>
+
+	<data name="ClaimedPrefix" xml:space="preserve">
+	    <value>Derbyniwyd gan:</value>
+	</data>
+
+	<data name="ClaimedString" xml:space="preserve">
+	    <value>Wedi'i berchnogi</value>
+	</data>
+
+	<data name="DeclinedString" xml:space="preserve">
+	    <value>Wedi'i wrthod</value>
+	</data>
+
+
+
+	<data name="HyperlocalDescriptionText" xml:space="preserve">
+	    <value>Gallwch nawr ddewis helpu gwasanaeth newyddion lleol drwy yrru eich newyddion atynt. Mae’n hawdd iawn. Rydym wedi rhestru’r holl wasanaethau newyddion cymunedol sydd wedi cofrestru yn eich ardal. Dewiswch un o’r rhestr isod a gyrrwch eich newyddion yn syth atynt.</value>
+	    <comment>13  CN03</comment>
+	</data>
+	<data name="RegisterHyperlocalDescriptionText" xml:space="preserve">
+	    <value>Unwaith y byddwch wedi cyflwyno manylion eich gwasanaeth newyddion cymunedol, caiff y rhain eu gwirio gan y Ganolfan Newyddiaduraeth Gymunedol.</value>
+	    <comment>13  CN03</comment>
+	</data>
+	<data name="RegisterNewHyperlocalSuggestion" xml:space="preserve">
+	    <value>Dim gwasanaethau newyddion cymunedol wedi’u cofrestru yn eich ardal? Canfyddwch sut i ddechrau un eich hun</value>
+	    <comment>13  CN03</comment>
+	</data>
+	<data name="RegisterNewHyperlocalSuggestionHTML" xml:space="preserve">
+	    <value>&lt;html style="background:#dddddd"&gt;&lt;body style="background:#dddddd"&gt;&lt;p&gt;Dim gwasanaethau newyddion cymunedol wedi’u cofrestru yn eich ardal? Canfyddwch sut i ddechrau un eich hun &lt;a href="http://www.communityjournalism.co.uk"&gt;www.communityjournalism.co.uk&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</value>
+	</data>
+
+	<data name="HyperlocalTitle" xml:space="preserve">
+	    <value>Eich gwasanaeth newyddion cymunedol</value>
+	    <comment>14  CN03</comment>
+	</data>
+	<data name="NewsSendTitle" xml:space="preserve">
+	    <value>Rwyf eisiau anfon newyddion at...</value>
+	    <comment>15  CN03</comment>
+	</data>
+	<data name="RecoverTitle" xml:space="preserve">
+	    <value>Adfer</value>
+	    <comment>16  CN04</comment>
+	</data>
+	<data name="RecoverTitleAlt" xml:space="preserve">
+	    <value>Mewngofnodi</value>
+	    <comment>16  CN04</comment>
+	</data>
+	<data name="RecoveryEmailText" xml:space="preserve">
+	    <value>Danfonwn e-bost i chi nawr i fewngofnodi i Newstori.</value>
+	    <comment>17  CN04</comment>
+	</data>
+	<data name="FeedbackLabel" xml:space="preserve">
+	    <value>Adborth</value>
+	    <comment>18  CN00</comment>
+	</data>
+	<data name="DraftsLabel" xml:space="preserve">
+	    <value>Drafftiau</value>
+	    <comment>19  CN00</comment>
+	</data>
+	<data name="SentLabel" xml:space="preserve">
+	    <value>Anfon</value>
+	    <comment>20  CN00</comment>
+	</data>
+	<data name="ProfileLabel" xml:space="preserve">
+	    <value>Proffil</value>
+	    <comment>21  CN00</comment>
+	</data>
+	<data name="MeLabel" xml:space="preserve">
+	    <value>Fi</value>
+	    <comment>22  CN00</comment>
+	</data>
+	<data name="ReportLabel" xml:space="preserve">
+	    <value>Adroddiad</value>
+	    <comment>23  CN05</comment>
+	</data>
+	<data name="RequestLabel" xml:space="preserve">
+	    <value>Gofyn</value>
+	    <comment>24  CN05</comment>
+	</data>
+	<data name="HeadlineLabel" xml:space="preserve">
+	    <value>Beth yw’r pennawd?</value>
+	    <comment>25  CN05</comment>
+	</data>
+	<data name="StoryCopyLabel" xml:space="preserve">
+	    <value>Dywedwch ragor wrthym (a darparwch eich enw, os gwelwch yn dda)</value>
+	    <comment>26  CN05</comment>
+	</data>
+	<data name="ReportGuidelinesText" xml:space="preserve">
+	    <value>Pa wybodaeth ddylwn i gynnwys yn fy stori newyddion? Mae angen ateb pum cwestiwn: Pryd? Ble? Pwy? Beth? Pam? Os gallwch gynnwys enwau a dyfyniadau, gorau oll, ond peidiwch a poeni os nad. Gall rywun o'ch gwasanaeth newyddion cymunedol gysylltu â chi am fwy o fanylion yn nes ymlaen os oes angen.</value>
+	    <comment>26  CN05</comment>
+	</data>
+	<data name="AdditionalInformationLabel" xml:space="preserve">
+	    <value>Allwch chi roi dyddiad/amser, llun a lle y digwyddodd y stori?</value>
+	    <comment>27  CN05</comment>
+	</data>
+	<data name="PhotoLabel" xml:space="preserve">
+	    <value>Llun</value>
+	    <comment>28  CN05</comment>
+	</data>
+	<data name="DateTimeLabel" xml:space="preserve">
+	    <value>Dyddiad</value>
+	    <comment>29  CN05</comment>
+	</data>
+	<data name="LocationLabel" xml:space="preserve">
+	    <value>Lleoliad</value>
+	    <comment>30  CN05</comment>
+	</data>
+	<data name="SendToLabel" xml:space="preserve">
+	    <value>Anfon at</value>
+	    <comment>31  CN05</comment>
+	</data>
+	<data name="NearbyHyperlocalLabel" xml:space="preserve">
+	    <value>Gwasanaethau newyddion cymunedol agosaf</value>
+	    <comment>32  CN05</comment>
+	</data>
+	<data name="SendToLabelCombined" xml:space="preserve">
+	    <value>Anfon at gwasanaethau newyddion cymunedol agosaf</value>
+	    <comment>32  CN05</comment>
+	</data>
+	<data name="YourHyperlocalLabel" xml:space="preserve">
+	    <value>Eich gasanaeth newyddion cymunedol o ddewis</value>
+	    <comment>33  CN05</comment>
+	</data>
+	<data name="PatchPaperDescriptionLabel" xml:space="preserve">
+	    <value>Eich papur ardal yw'r  gwasanaeth newyddion cymunedol lleol lle byddwch yn anfon straeon amlaf - efallai hyd yn oed pan fyddwch oddi cartref. Hwn yw'r gwasanaeth newyddion cymunedol rydych chi fwyaf triw iddo neu'n ei ddarllen amlaf. Defnyddiwch y dewis hwn pan fyddwch eisiau osgoi'r gwasanaeth geo-leoliad sydd yn anfon cynnwys at y gwasaneth agosaf yn awtomatic.</value>
+	    <comment>34  CN09</comment>
+	</data>
+	<data name="JoinHyperlocalLabel" xml:space="preserve">
+	    <value>Ymunwch â gwasanaeth newyddion cymunedol</value>
+	    <comment>35  CN10</comment>
+	</data>
+	<data name="RegisterHyperlocalLabel" xml:space="preserve">
+	    <value>Cofrestru gwasanaeth newyddion cymunedol</value>
+	    <comment>36  CN10</comment>
+	</data>
+	<data name="HyperlocalNameLabel" xml:space="preserve">
+	    <value>Enw'r gwasanaeth newyddion cymunedol</value>
+	    <comment>37  CN10a</comment>
+	</data>
+	<data name="HyperlocalSearchLabel" xml:space="preserve">
+	    <value>Chwilio</value>
+	    <comment>38  CN10a</comment>
+	</data>
+	<data name="LocationLabel2" xml:space="preserve">
+	    <value>Lleoliad</value>
+	    <comment>39  CN10b</comment>
+	</data>
+	<data name="AdministrationEmailLabel" xml:space="preserve">
+	    <value>E-bost</value>
+	    <comment>40  CN10b</comment>
+	</data>
+
+	<data name="RegisterHyperlocalText" xml:space="preserve">
+	    <value>Cofrestru tecst newyddion cymunedol (cael ei ddangos ar goedd)</value>
+	    <comment>41  CN10b</comment>
+	</data>
+	<data name="EmailVerificationText" xml:space="preserve">
+	    <value>Tecst gwirio ebost (wedi ei anfon trwy wasanaeth y we)</value>
+	    <comment>42  CN10b</comment>
+	</data>
+
+	<data name="ReportTitleLabel" xml:space="preserve">
+	    <value>Teitl yr adroddiad</value>
+	    <comment>43  CN10b</comment>
+	</data>
+	<data name="ExportTitleLabel" xml:space="preserve">
+	    <value>Symyd allan</value>
+	    <comment>44  CN10b</comment>
+	</data>
+	<data name="SendLabel" xml:space="preserve">
+	    <value>Anfon</value>
+	    <comment>45  CN10b</comment>
+	</data>
+	<data name="TeamMessageLabel" xml:space="preserve">
+	    <value>Neges</value>
+	    <comment>46  CN10b</comment>
+	</data>
+	<data name="TeamMessageText" xml:space="preserve">
+	    <value>Neges gan y tîm</value>
+	    <comment>47  CN10b</comment>
+	</data>
+	<data name="YourReplyLabel" xml:space="preserve">
+	    <value>Eich ateb</value>
+	    <comment>48  CN10b</comment>
+	</data>
+	<data name="AdditionalLabel" xml:space="preserve">
+	    <value>Ychwanegol</value>
+	</data>
+	<data name="SendFeedbackLabel" xml:space="preserve">
+	    <value>Anfonwch Adborth</value>
+	</data>
+
+
+
+	<data name="FeedbackSendTitle" xml:space="preserve">
+	    <value>Anfonwyd Adborth</value>
+	</data>
+	<data name="FeedbackSentLabel" xml:space="preserve">
+	    <value>Anfonwyd eich Adborth</value>
+	</data>
+	<data name="FeedbackFailedTitle" xml:space="preserve">
+	    <value>Bu'r adborth yn aflwyddiannus</value>
+	</data>
+	<data name="FeedbackFailedLabel" xml:space="preserve">
+	    <value>Mae'n ddrwg gennym, ni ellid anfon eich adborth y tro hwn.  Gwiriwch eich cysylltiad os gwelwch yn dda.</value>
+	</data>
+
+
+	<data name="ArticleExplortedTitle" xml:space="preserve">
+	    <value>Allforiwyd yr Erthygl</value>
+	</data>
+	<data name="ArticleExplortedLabel" xml:space="preserve">
+	    <value>Anfonwyd yr erthygl i'ch cyfeiriad e-bost.</value>
+	</data>
+	<data name="ArticleExplortFailedTitle" xml:space="preserve">
+	    <value>Methwyd ag Allforio'r Erthygl</value>
+	</data>
+	<data name="ArticleExplortFailedLabel" xml:space="preserve">
+	    <value>Ni allwyd allforio'r erthygl</value>
+	</data>
+
+	<data name="ArticleClaimRemovedTitle" xml:space="preserve">
+	    <value>Symudwyd Hawl ar yr Erthygl</value>
+	</data>
+	<data name="ArticleClaimRemovedLabel" xml:space="preserve">
+	    <value>Rydych wedi symud eich hawl ar yr erthygl hon</value>
+	</data>
+
+
+	<data name="ArticleClaimedTitle" xml:space="preserve">
+	    <value>Hawliwyd yr Erthygl</value>
+	</data>
+	<data name="ArticleClaimedLabel" xml:space="preserve">
+	    <value>Rydych wedi hawlio'r erthygl hon</value>
+	</data>
+
+
+	<data name="ArticleClaimFailedTitle" xml:space="preserve">
+	    <value>Methodd Hawlio'r Erthygl</value>
+	</data>
+	<data name="ArticleClaimFailedLabel" xml:space="preserve">
+	    <value>Ni ellid hawlio'r erthygl oherwydd: </value>
+	</data>
+
+
+	<data name="ArticleUndeclinedTitle" xml:space="preserve">
+	    <value>Dad-wrthodwyd yr erthygl</value>
+	</data>
+	<data name="ArticleUndeclinedLabel" xml:space="preserve">
+	    <value>Rydych wedi dad-wrthod yr erthygl hon</value>
+	</data>
+
+
+	<data name="ArticleDeclinedTitle" xml:space="preserve">
+	    <value>Gwrthodwyd yr erthygl</value>
+	</data>
+	<data name="ArticleDeclinedLabel" xml:space="preserve">
+	    <value>Rydych wedi gwrthod yr erthygl hon</value>
+	</data>
+
+
+	<data name="ArticleDeclineFailedTitle" xml:space="preserve">
+	    <value>Methwyd â Gwrthod yr Erthygl</value>
+	</data>
+	<data name="ArticleDeclineFailedLabel" xml:space="preserve">
+	    <value>Ni ellid gwrthod yr erthygl oherwydd: </value>
+	</data>
+
+
+	<data name="CannotRegisterTitle" xml:space="preserve">
+	    <value>Methu Cofrestru</value>
+	</data>
+	<data name="CannotRegisterLabel" xml:space="preserve">
+	    <value>Darparwch leoliad er mwyn cofrestru eich newyddion cymunedol lleol</value>
+	</data>
+
+
+	<data name="RegistrationRequestedTitle" xml:space="preserve">
+	    <value>Gofynnwyd am Gofrestru</value>
+	</data>
+	<data name="RegistrationRequestedLabel" xml:space="preserve">
+	    <value>Bu eich Cofrestru Newyddion Cymunedol Lleol yn llwyddiannus ac mae nawr yn disgwyl ei ddilysu</value>
+	</data>
+
+
+	<data name="RegistrationRequestFailedTitle" xml:space="preserve">
+	    <value>Methwyd â Chofrestru</value>
+	</data>
+	<data name="RegistrationRequestFailedLabel" xml:space="preserve">
+	    <value>Ni allem gofrestru eich newyddion cymunedol lleol heddiw oherwydd: </value>
+	</data>
+
+	<data name="VerificationRequestedTitle" xml:space="preserve">
+	    <value>Cais Dilysu</value>
+	</data>
+	<data name="VerificationRequestedLabel" xml:space="preserve">
+	    <value>Anfonwyd eich cais, gwiriwch eich e-bost</value>
+	</data>
+
+	<data name="VerificationRequestFailedTitle" xml:space="preserve">
+	    <value>Methodd y Cais Dilysu</value>
+	</data>
+	<data name="VerificationRequestFailedLabel" xml:space="preserve">
+	    <value>Ni allem ofyn am ddilysu eich cyfrif oherwydd: </value>
+	</data>
+
+	<data name="UserVerificationRequestProcessedTitle" xml:space="preserve">
+	    <value>Proseswyd eich Cais am Ddilysu Defnyddiwr</value>
+	</data>
+	<data name="UserVerificationRequestProcessedLabel" xml:space="preserve">
+	    <value>Gwiriwch eich e-bost</value>
+	</data>
+
+	<data name="UserVerificationRequestFailedTitle" xml:space="preserve">
+	    <value>Methodd y Cais Dilysu Defnyddiwr</value>
+	</data>
+	<data name="UserVerificationRequestFailedLabel" xml:space="preserve">
+	    <value>Ni allem gwblhau eich cais oherwydd: </value>
+	</data>
+
+	<data name="ProfileUpdatedTitle" xml:space="preserve">
+	    <value>Diweddaru Proffil</value>
+	</data>
+	<data name="ProfileUpdatedLabel" xml:space="preserve">
+	    <value>Diweddarwyd eich Proffil</value>
+	</data>
+
+	<data name="ProfileUpdatedTitleREVERSE" xml:space="preserve">
+	    <value>Profile Updated</value>
+	</data>
+	<data name="ProfileUpdatedLabelREVERSE" xml:space="preserve">
+	    <value>Your profile has been updated</value>
+	</data>
+
+	<data name="ProfileUpdateFailedTitle" xml:space="preserve">
+	    <value>Methodd y Diweddariad</value>
+	</data>
+	<data name="ProfileUpdateFailedLabel" xml:space="preserve">
+	    <value>Mae'n ddrwg gennym, ni allwyd diweddaru eich proffil ar hyn o bryd </value>
+	</data>
+
+	<data name="UserRegistrationFailedTitle" xml:space="preserve">
+	    <value>Methodd y Cofrestru</value>
+	</data>
+	<data name="UserRegistrationFailedLabel" xml:space="preserve">
+	    <value>Ni allem gofrestru eich cyfrif oherwydd: </value>
+	</data>
+
+	<data name="UserLoginFailReason" xml:space="preserve">
+		<value>Cyfeiriad e-bost annilys neu eisoes yn nhabl defnyddwyr</value>
+	</data>
+
+	<data name="FeedbackResponseFailedTitle" xml:space="preserve">
+		<value>Methodd yr Ymateb</value>
+	</data>
+
+	<data name="FeedbackResponseFailedLabel" xml:space="preserve">
+		<value>Mae'n ddrwg gennym, ni allem yrru ymateb ar hyn o bryd oherwydd: </value>
+	</data>
+
+	<data name="FeedbackResponseSentTitle" xml:space="preserve">
+		<value>Anfonwyd Ymateb</value>
+	</data>
+
+	<data name="FeedbackResponseSentLabel" xml:space="preserve">
+		<value>Anfonwyd eich ymateb</value>
+	</data>
+
+	<data name="UserVerifyScreenTitle" xml:space="preserve">
+		<value>Methodd y Cais Dilysu</value>
+	</data>
+	<data name="UserVerifyScreenMessage" xml:space="preserve">
+		<value>Rhaid i chi roi tocyn cadarnhad dilys</value>
+	</data> 
+
+</root>

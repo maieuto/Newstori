@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HyperlocalNews.ReporterDraftsScreen"
+		BackgroundColor="#cccccc"
+		xmlns:i18n="clr-namespace:HyperlocalNews;assembly=HyperlocalNews" Title="{i18n:Translate DraftsLabel}">
+
+
+	<ContentPage.Resources>
+		<ResourceDictionary>
+
+			<Color x:Key="LightGrey">#eeeeee</Color>
+			<Color x:Key="MediumGrey">#b2b3b3</Color>
+			<Color x:Key="DarkGrey">#989a9a</Color>
+			<Color x:Key="Black">#1f1f1f</Color>
+			<Color x:Key="LightPink">#E52563</Color>
+			<Color x:Key="DarkPink">#792956</Color>
+			<Color x:Key="Purple">#522655</Color>
+			<Color x:Key="LightGreen">#d2da45</Color>
+			<Color x:Key="MediumGreen">#7b9249</Color>
+			<Color x:Key="DarkGreen">#4f6e3b</Color>
+
+		</ResourceDictionary>
+	</ContentPage.Resources>
+
+
+	<ContentPage.Content>
+
+        <AbsoluteLayout BackgroundColor="{StaticResource MediumGrey}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+			<StackLayout AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="{StaticResource MediumGrey}" Padding="0">
+
+				<ListView x:Name="list" ItemTapped="EditDraft" HasUnevenRows="true" BackgroundColor="{StaticResource MediumGrey}">
+					<ListView.ItemTemplate>
+						<DataTemplate>
+							<ViewCell>
+							<ViewCell.View>
+		                        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Start" BackgroundColor="{StaticResource MediumGrey}" Padding="10,5,10,5">
+			                        <Grid BackgroundColor="{StaticResource LightGrey}">
+			                        	
+										<Grid.RowDefinitions>
+											<RowDefinition Height="5" />
+											<RowDefinition Height="Auto" />
+											<RowDefinition Height="Auto" />
+											<RowDefinition Height="5" />
+										</Grid.RowDefinitions>
+										<Grid.ColumnDefinitions>
+											<ColumnDefinition Width="5" />
+											<ColumnDefinition Width="*" />
+											<ColumnDefinition Width="10" />
+											<ColumnDefinition Width="5" />
+										</Grid.ColumnDefinitions>
+										
+										<Label Grid.Row="1" Grid.Column="1" Text="{Binding Title}" VerticalOptions="Start" XAlign="Start" HorizontalOptions="FillAndExpand" TextColor="{StaticResource LightPink}" BackgroundColor="Transparent"></Label>
+					                    
+					                    <Label Grid.Row="2" Grid.Column="1" Text="{Binding ContentLimited}" VerticalOptions="Start" XAlign="Start" HorizontalOptions="FillAndExpand" TextColor="{StaticResource DarkGrey}" BackgroundColor="Transparent"></Label>
+
+					                    <Image Source="rightarrow.png" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" />
+
+					                    <Image Source="topleft.png" Grid.Row="0" Grid.Column="0" />
+					                    <Image Source="topright.png" Grid.Row="0" Grid.Column="3" />
+					                    <Image Source="bottomleft.png" Grid.Row="3" Grid.Column="0" />
+					                    <Image Source="bottomright.png" Grid.Row="3" Grid.Column="3" />
+									</Grid>
+								</StackLayout>
+							</ViewCell.View>
+							</ViewCell>
+						</DataTemplate>
+					</ListView.ItemTemplate>
+				</ListView>
+			</StackLayout>
+
+
+            <StackLayout x:Name="ActivityView" 
+            			 AbsoluteLayout.LayoutBounds="0.5, 0.3, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                         VerticalOptions="FillAndExpand"
+                         HorizontalOptions="FillAndExpand"
+                         BackgroundColor="Black" Opacity="0.3">
+
+            	<ActivityIndicator
+            				   IsVisible="true"
+                               IsRunning="true"
+                               Color="#ffffff"
+            					VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="Center" 
+                               />
+				</StackLayout>
+			
+		</AbsoluteLayout>
+
+	</ContentPage.Content>
+</ContentPage>

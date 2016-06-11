@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="#dddddd" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HyperlocalNews.AdminSetup"
+xmlns:i18n="clr-namespace:HyperlocalNews;assembly=HyperlocalNews"  Title="{i18n:Translate YourHyperlocalLabel}">
+	<ContentPage.Content>
+		<AbsoluteLayout>
+
+			<StackLayout x:Name="layout" VerticalOptions="FillAndExpand" HorizontalOptions="Fill" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+
+				<Label 
+					Text="{i18n:Translate RegisterHyperlocalDescriptionText}" VerticalOptions="Center" />
+
+	   	 		<Button x:Name="CreateHyperlocalButton"
+	   	 			Text="{i18n:Translate RegisterHyperlocalLabel}"
+	            	Clicked = "CreateHyperlocal" VerticalOptions="Center" />
+
+	   	 		<Button x:Name="JoinHyperlocalButton" 
+	   	 			Text="{i18n:Translate JoinHyperlocalLabel}"
+	            	Clicked = "JoinHyperlocal"  VerticalOptions="Center" />
+
+	    	</StackLayout>
+			
+
+            <StackLayout x:Name="ActivityView" 
+				AbsoluteLayout.LayoutBounds="0.5, 0.3, 1, 1" AbsoluteLayout.LayoutFlags="All"
+				VerticalOptions="Fill"
+				HorizontalOptions="FillAndExpand"
+				BackgroundColor="#989a9a" 
+				Opacity="1.0"
+				IsVisible="true">
+
+	        	<ActivityIndicator
+					IsVisible="true"
+					IsRunning="true"
+                    Color="#ffffff"
+					VerticalOptions="CenterAndExpand"
+					HorizontalOptions="Center" 
+					/>
+			</StackLayout>
+	            	
+		</AbsoluteLayout>
+	</ContentPage.Content>
+</ContentPage>

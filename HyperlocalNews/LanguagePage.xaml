@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="#dddddd" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HyperlocalNews.LanguagePage">
+	<ContentPage.Content>
+		<StackLayout x:Name="layout" VerticalOptions="CenterAndExpand" HorizontalOptions="Fill"  >
+
+   	 	<Button x:Name="englishButton"
+   	 		Text="English"
+           	HorizontalOptions="Fill"
+           	Clicked = "LanguageSelected" />
+
+   	 	<Button x:Name="cymraegButton" 
+   	 		Text="Cymraeg"
+           	HorizontalOptions="Fill"
+           	Clicked = "LanguageSelected" />
+
+  		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

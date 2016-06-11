@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="AppTitle" xml:space="preserve">
+	    <value>Newstori</value>
+	    <comment>3 CN02</comment>
+	</data>
+	<data name="IntroText" xml:space="preserve">
+	    <value>Got news? Share it! Tell your community news service what's going on near you. Share reports, photos and events and help to keep your community connected.</value>
+	    <comment>4 CN02</comment>
+	</data>
+	<data name="ConnectionErrorLabel" xml:space="preserve">
+		<value>Connection Error - Could not connect to Newstori server at this time, please try again.</value>
+	</data>
+	<data name="SignUpLabel" xml:space="preserve">
+	    <value>New to Newstori? Sign up</value>
+	    <comment>5  CN02</comment>
+	</data>
+	<data name="LoginLabel" xml:space="preserve">
+	    <value>Already a user? Login</value>
+	    <comment>6  CN02</comment>
+	</data>
+	<data name="TermsConditionsLabel" xml:space="preserve">
+	    <value>Terms &amp; Conditions</value>
+	    <comment>7  CN02</comment>
+	</data>
+	<data name="TermsConditionsText" xml:space="preserve">
+	    <value>T&amp;C text</value>
+	    <comment>8  CN02</comment>
+	</data>
+	<data name="JoinLabel" xml:space="preserve">
+	    <value>Join</value>
+	    <comment>9  CN02</comment>
+	</data>
+	<data name="StartLabel" xml:space="preserve">
+	    <value>Start</value>
+	    <comment>10  CN02</comment>
+	</data>
+	<data name="FullNameLabel" xml:space="preserve">
+	    <value>Full name</value>
+	    <comment>11  CN03</comment>
+	</data>
+	<data name="EmailLabel" xml:space="preserve">
+	    <value>Email</value>
+	    <comment>12  CN03</comment>
+	</data>
+	<data name="ReportSubmittedTitle" xml:space="preserve">
+	    <value>Report Submitted</value>
+	</data>
+	<data name="ReportSubmittedLabel" xml:space="preserve">
+	    <value>Your report has been submitted</value>
+	</data>
+	<data name="ReportSavedTitle" xml:space="preserve">
+	    <value>Report Saved</value>
+	</data>
+	<data name="ReportSavedLabel" xml:space="preserve">
+	    <value>Your report has been saved to drafts</value>
+	</data>
+	<data name="LocationNeededTitle" xml:space="preserve">
+	    <value>Could not submit</value>
+	</data>
+	<data name="LocationNeededLabel" xml:space="preserve">
+	    <value>Reports require a location to be submitted</value>
+	</data>
+	<data name="SubmissionFailedTitle" xml:space="preserve">
+	    <value>Submission Failed</value>
+	</data>
+	<data name="SubmissionFailedLabel" xml:space="preserve">
+	    <value>We're sorry, your report could not be submitted because: </value>
+	</data>
+
+	<data name="DiscardLabel" xml:space="preserve">
+	    <value>Discard</value>
+	</data>
+	<data name="NewReportLabel" xml:space="preserve">
+	    <value>New Report</value>
+	</data>
+	<data name="SubmitLabel" xml:space="preserve">
+	    <value>Submit</value>
+	</data>
+	<data name="SubmitLabelAlternative" xml:space="preserve">
+	    <value>Submit</value>
+	</data>
+	<data name="DoneLabel" xml:space="preserve">
+	    <value>Done</value>
+	</data>
+	<data name="SaveAsDraftLabel" xml:space="preserve">
+	    <value>Save As Draft</value>
+	</data>
+	<data name="ConfirmLabel" xml:space="preserve">
+	    <value>Confirm</value>
+	</data>
+	<data name="PreferredLanguageLabel" xml:space="preserve">
+	    <value>Preferred Language</value>
+	</data>
+
+
+
+	<data name="ProfileUpdateAlertTitle" xml:space="preserve">
+	    <value>Profile Updated</value>
+	</data>
+	<data name="ProfileUpdateAlertLabel" xml:space="preserve">
+	    <value>Your profile has been updated</value>
+	</data>
+	<data name="ProfileUpdateAlertTitleREVERSE" xml:space="preserve">
+	    <value>Diweddaru proffil</value>
+	</data>
+	<data name="ProfileUpdateAlertLabelREVERSE" xml:space="preserve">
+	    <value>Mae eich proffil wedi ei ddiweddaru</value>
+	</data>
+	<data name="OKLabelREVERSE" xml:space="preserve">
+	    <value>Iawn</value>
+	</data>
+	<data name="UpdateLabel" xml:space="preserve">
+	    <value>Update</value>
+	</data>
+	<data name="UpdateFailedTitle" xml:space="preserve">
+	    <value>Update Failed</value>
+	</data>
+	<data name="UpdateFailedLabel" xml:space="preserve">
+	    <value>We're sorry, your profile could not be updated at this time because:</value>
+	</data>
+
+	<data name="BackLabel" xml:space="preserve">
+	    <value>Back</value>
+	</data>
+
+	<data name="OKLabel" xml:space="preserve">
+	    <value>OK</value>
+	</data>
+
+	<data name="SelectHyperlocalLabel" xml:space="preserve">
+	    <value>Select news service</value>
+	</data>
+
+	<data name="VerificationAlertTitle" xml:space="preserve">
+	    <value>Verifcation Request Processed</value>
+	</data>
+
+	<data name="VerificationAlertLabel" xml:space="preserve">
+	    <value>Check your emails User verification requested</value>
+	</data>
+
+	<data name="GuideLabel" xml:space="preserve">
+	    <value>Report Guide</value>
+	</data>
+
+	<data name="ExportLabel" xml:space="preserve">
+	    <value>Export</value>
+	</data>
+
+	<data name="UserFeedbackResponse" xml:space="preserve">
+	    <value>User Feedback Response</value>
+	</data>
+
+	<data name="JoinButtonLabel" xml:space="preserve">
+	    <value>Complete</value>
+	</data>
+
+	<data name="ClaimButtonLabel" xml:space="preserve">
+	    <value>Claim</value>
+	</data>
+
+	<data name="DeclinedButtonLabel" xml:space="preserve">
+	    <value>Decline</value>
+	</data>
+
+	<data name="ClaimedPrefix" xml:space="preserve">
+	    <value>Claimed by:</value>
+	</data>
+
+	<data name="ClaimedString" xml:space="preserve">
+	    <value>Claimed</value>
+	</data>
+
+	<data name="DeclinedString" xml:space="preserve">
+	    <value>Declined</value>
+	</data>
+
+
+
+
+
+
+	<data name="HyperlocalDescriptionText" xml:space="preserve">
+	    <value>You can now choose to help a local news service by sending them your news. It's really easy. We've listed all the community news services registered in your area. Select one from the list below to send your news directly to them.</value>
+	    <comment>13  CN03</comment>
+	</data>
+	<data name="RegisterHyperlocalDescriptionText" xml:space="preserve">
+	    <value>Once you have submitted the details of your community news service, these will be verified by the Centre for Community Journalism.</value>
+	    <comment>13  CN03</comment>
+	</data>
+	    
+	<data name="RegisterNewHyperlocalSuggestion" xml:space="preserve">
+	    <value>No community news services registered in your area?  Find out how you can start your own</value>
+	    <comment>14  CN03</comment>
+	</data>
+	<data name="RegisterNewHyperlocalSuggestionHTML" xml:space="preserve">
+	    <value>&lt;html style="background:#dddddd"&gt;&lt;body style="background:#dddddd"&gt;&lt;p style="font-size:small; color:black;"&gt;No community news services registered in your area?  Find out how you can start your own: &lt;a href="http://www.communityjournalism.co.uk"&gt;www.communityjournalism.co.uk&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</value>
+	</data>
+
+	<data name="HyperlocalTitle" xml:space="preserve">
+	    <value>Your community news service</value>
+	    <comment>14  CN03</comment>
+	</data>
+	<data name="NewsSendTitle" xml:space="preserve">
+	    <value>I want to send news to...</value>
+	    <comment>15  CN03</comment>
+	</data>
+	<data name="RecoverTitle" xml:space="preserve">
+	    <value>Login</value>
+	    <comment>16  CN04</comment>
+	</data>
+	<data name="RecoverTitleAlt" xml:space="preserve">
+	    <value>Login</value>
+	    <comment>16  CN04</comment>
+	</data>
+	<data name="RecoveryEmailText" xml:space="preserve">
+	    <value>We will now send you an email so that you can login to Newstori.</value>
+	    <comment>17  CN04</comment>
+	</data>
+	<data name="FeedbackLabel" xml:space="preserve">
+	    <value>Feedback</value>
+	    <comment>18  CN00</comment>
+	</data>
+	<data name="DraftsLabel" xml:space="preserve">
+	    <value>Drafts</value>
+	    <comment>19  CN00</comment>
+	</data>
+	<data name="SentLabel" xml:space="preserve">
+	    <value>Sent</value>
+	    <comment>20  CN00</comment>
+	</data>
+	<data name="ProfileLabel" xml:space="preserve">
+	    <value>Profile</value>
+	    <comment>21  CN00</comment>
+	</data>
+	<data name="MeLabel" xml:space="preserve">
+	    <value>Me</value>
+	    <comment>22  CN00</comment>
+	</data>
+	<data name="ReportLabel" xml:space="preserve">
+	    <value>Report</value>
+	    <comment>23  CN05</comment>
+	</data>
+	<data name="RequestLabel" xml:space="preserve">
+	    <value>Request</value>
+	    <comment>24  CN05</comment>
+	</data>
+	<data name="HeadlineLabel" xml:space="preserve">
+	    <value>What's the Headline?</value>
+	    <comment>25  CN05</comment>
+	</data>
+	<data name="StoryCopyLabel" xml:space="preserve">
+	    <value>Tell us more (and please provide your name)</value>
+	    <comment>26  CN05</comment>
+	</data>
+
+	<data name="ReportGuidelinesText" xml:space="preserve">
+	    <value>What information should I include in my news story? Your community news service needs the 5  'W's: When? Where? Who? What? Why? If you can include names and quotes that is even better - but don't worry if you miss anything. Your chosen community news service may get in touch to ask you for more details later on.</value>
+	    <comment>28</comment>
+	</data>
+
+	<data name="AdditionalInformationLabel" xml:space="preserve">
+	    <value>For your story, could you give date/time, photo and where it happened?</value>
+	    <comment>27  CN05</comment>
+	</data>
+	<data name="PhotoLabel" xml:space="preserve">
+	    <value>Photo</value>
+	    <comment>28  CN05</comment>
+	</data>
+	<data name="DateTimeLabel" xml:space="preserve">
+	    <value>Date/Time</value>
+	    <comment>29  CN05</comment>
+	</data>
+	<data name="LocationLabel" xml:space="preserve">
+	    <value>Location</value>
+	    <comment>30  CN05</comment>
+	</data>
+	<data name="SendToLabel" xml:space="preserve">
+	    <value>Send To</value>
+	    <comment>31  CN05</comment>
+	</data>
+	<data name="NearbyHyperlocalLabel" xml:space="preserve">
+	    <value>Nearest community news services</value>
+	    <comment>32  CN05</comment>
+	</data>
+	<data name="SendToLabelCombined" xml:space="preserve">
+	    <value>Send to nearest community news services</value>
+	    <comment>32  CN05</comment>
+	</data>
+	<data name="YourHyperlocalLabel" xml:space="preserve">
+	    <value>Your chosen community news service</value>
+	    <comment>33  CN05</comment>
+	</data>
+	<data name="PatchPaperDescriptionLabel" xml:space="preserve">
+	    <value>Your patch paper is... your home community news service that you will post to most frequently, and may want to post to even when you are away from home. This may be the community news service you are loyal to or read most often. Use this option when you want to override the geolocation service.</value>
+	    <comment>34  CN09</comment>
+	</data>
+	<data name="JoinHyperlocalLabel" xml:space="preserve">
+	    <value>Join a community news service</value>
+	    <comment>35  CN10</comment>
+	</data>
+	<data name="RegisterHyperlocalLabel" xml:space="preserve">
+	    <value>Register a community news service</value>
+	    <comment>36  CN10</comment>
+	</data>
+	<data name="HyperlocalNameLabel" xml:space="preserve">
+	    <value>Community news service name</value>
+	    <comment>37  CN10a</comment>
+	</data>
+	<data name="HyperlocalSearchLabel" xml:space="preserve">
+	    <value>Search</value>
+	    <comment>38  CN10a</comment>	
+	</data>
+	<data name="LocationLabel2" xml:space="preserve">
+	    <value>Location</value>
+	    <comment>39  CN10b</comment>
+	</data>
+	<data name="AdministrationEmailLabel" xml:space="preserve">
+	    <value>Email</value>
+	    <comment>40  CN10b</comment>
+	</data>
+	<data name="RegisterHyperlocalText" xml:space="preserve">
+	    <value>Register Hyperlocal text (displayed on view)</value>
+	    <comment>41  CN10b</comment>
+	</data>
+	<data name="EmailVerificationText" xml:space="preserve">
+	    <value>Email Verification Text (sent out via webservice)</value>
+	    <comment>42  CN10b</comment>
+	</data>
+	<data name="ReportTitleLabel" xml:space="preserve">
+	    <value>Report Title</value>
+	    <comment>43  CN10b</comment>
+	</data>
+	<data name="ExportTitleLabel" xml:space="preserve">
+	    <value>Export</value>
+	    <comment>44  CN10b</comment>
+	</data>
+	<data name="SendLabel" xml:space="preserve">
+	    <value>Send</value>
+	    <comment>45  CN10b</comment>
+	</data>
+	<data name="TeamMessageLabel" xml:space="preserve">
+	    <value>Message</value>
+	    <comment>46  CN10b</comment>
+	</data>
+	<data name="TeamMessageText" xml:space="preserve">
+	    <value>Message from the team</value>
+	    <comment>47  CN10b</comment>
+	</data>
+	<data name="YourReplyLabel" xml:space="preserve">
+	    <value>Your Reply</value>
+	    <comment>48  CN10b</comment>
+	</data>
+
+	<data name="AdditionalLabel" xml:space="preserve">
+	    <value>Additonal</value>
+	</data>
+	<data name="SendFeedbackLabel" xml:space="preserve">
+	    <value>Send Feedback</value>
+	</data>
+
+
+	<data name="FeedbackSendTitle" xml:space="preserve">
+	    <value>Feedback Sent</value>
+	</data>
+	<data name="FeedbackSentLabel" xml:space="preserve">
+	    <value>Your feedback has been sent</value>
+	</data>
+	<data name="FeedbackFailedTitle" xml:space="preserve">
+	    <value>Feedback Failed</value>
+	</data>
+	<data name="FeedbackFailedLabel" xml:space="preserve">
+	    <value>We're sorry, your feedback could not be sent at this time. Please check your connection.</value>
+	</data>
+
+
+	<data name="ArticleExplortedTitle" xml:space="preserve">
+	    <value>Article Exported</value>
+	</data>
+	<data name="ArticleExplortedLabel" xml:space="preserve">
+	    <value>The article has been sent to your email address.</value>
+	</data>
+	<data name="ArticleExplortFailedTitle" xml:space="preserve">
+	    <value>Article Export Failed</value>
+	</data>
+	<data name="ArticleExplortFailedLabel" xml:space="preserve">
+	    <value>The article could not be exported.</value>
+	</data>
+
+	<data name="ArticleClaimRemovedTitle" xml:space="preserve">
+	    <value>Article Claim Removed</value>
+	</data>
+	<data name="ArticleClaimRemovedLabel" xml:space="preserve">
+	    <value>You have removed your claim on this article</value>
+	</data>
+
+
+	<data name="ArticleClaimedTitle" xml:space="preserve">
+	    <value>Article Claimed</value>
+	</data>
+	<data name="ArticleClaimedLabel" xml:space="preserve">
+	    <value>You have claimed this article.</value>
+	</data>
+
+
+	<data name="ArticleClaimFailedTitle" xml:space="preserve">
+	    <value>Article Claim Failed</value>
+	</data>
+	<data name="ArticleClaimFailedLabel" xml:space="preserve">
+	    <value>The article could not be claimed because:</value>
+	</data>
+
+
+	<data name="ArticleUndeclinedTitle" xml:space="preserve">
+	    <value>Article undeclined</value>
+	</data>
+	<data name="ArticleUndeclinedLabel" xml:space="preserve">
+	    <value>You have undeclined this article</value>
+	</data>
+
+
+	<data name="ArticleDeclinedTitle" xml:space="preserve">
+	    <value>Article declined</value>
+	</data>
+	<data name="ArticleDeclinedLabel" xml:space="preserve">
+	    <value>You have declined this article</value>
+	</data>
+
+
+	<data name="ArticleDeclineFailedTitle" xml:space="preserve">
+	    <value>Article Decline Failed</value>
+	</data>
+	<data name="ArticleDeclineFailedLabel" xml:space="preserve">
+	    <value>The article could not be declined because: </value>
+	</data>
+
+
+	<data name="CannotRegisterTitle" xml:space="preserve">
+	    <value>Cannot Register</value>
+	</data>
+	<data name="CannotRegisterLabel" xml:space="preserve">
+	    <value>Please provide a location in order to register your hyperlocal</value>
+	</data>
+
+
+	<data name="RegistrationRequestedTitle" xml:space="preserve">
+	    <value>Registration Requested</value>
+	</data>
+	<data name="RegistrationRequestedLabel" xml:space="preserve">
+	    <value>Your Hyperlocal Registration has been successful and is now pending verification</value>
+	</data>
+
+
+	<data name="RegistrationRequestFailedTitle" xml:space="preserve">
+	    <value>Registration Failed</value>
+	</data>
+	<data name="RegistrationRequestFailedLabel" xml:space="preserve">
+	    <value>We could not register your Hyperlocal because:</value>
+	</data>
+
+	<data name="VerificationRequestedTitle" xml:space="preserve">
+	    <value>Verification Requested</value>
+	</data>
+	<data name="VerificationRequestedLabel" xml:space="preserve">
+	    <value>Your request has been sent, check your emails.</value>
+	</data>
+
+	<data name="VerificationRequestFailedTitle" xml:space="preserve">
+	    <value>Verification Request Failed</value>
+	</data>
+	<data name="VerificationRequestFailedLabel" xml:space="preserve">
+	    <value>We could not request a verification of your account because:</value>
+	</data>
+
+	<data name="UserVerificationRequestProcessedTitle" xml:space="preserve">
+	    <value>User Verification Request Processed</value>
+	</data>
+	<data name="UserVerificationRequestProcessedLabel" xml:space="preserve">
+	    <value>Check your emails</value>
+	</data>
+
+	<data name="UserVerificationRequestFailedTitle" xml:space="preserve">
+	    <value>User Verification Request Failed</value>
+	</data>
+	<data name="UserVerificationRequestFailedLabel" xml:space="preserve">
+	    <value>We could not complete your request because: </value>
+	</data>
+
+	<data name="ProfileUpdatedTitle" xml:space="preserve">
+	    <value>Profile Updated</value>
+	</data>
+	<data name="ProfileUpdatedLabel" xml:space="preserve">
+	    <value>Your profile has been updated</value>
+	</data>
+
+	<data name="ProfileUpdatedTitleREVERSE" xml:space="preserve">
+	    <value>Diweddaru Proffil</value>
+	</data>
+	<data name="ProfileUpdatedLabelREVERSE" xml:space="preserve">
+	    <value>Diweddarwyd eich Proffil</value>
+	</data>
+
+	<data name="ProfileUpdateFailedTitle" xml:space="preserve">
+	    <value>Update Failed</value>
+	</data>
+	<data name="ProfileUpdateFailedLabel" xml:space="preserve">
+	    <value>We're sorry, your profile could not be updated at this time. </value>
+	</data>
+
+	<data name="UserRegistrationFailedTitle" xml:space="preserve">
+	    <value>Registration Failed</value>
+	</data>
+	<data name="UserRegistrationFailedLabel" xml:space="preserve">
+	    <value>We could not register your account because: </value>
+	</data>
+
+	<data name="UserLoginFailReason" xml:space="preserve">
+		<value>Email address invalid or already exists in users table</value>
+	</data>
+
+	<data name="FeedbackResponseFailedTitle" xml:space="preserve">
+		<value>Response Failed</value>
+	</data>
+
+	<data name="FeedbackResponseFailedLabel" xml:space="preserve">
+		<value>We're sorry, your response could not be sent at this time because:</value>
+	</data>
+
+	<data name="FeedbackResponseSentTitle" xml:space="preserve">
+		<value>Response Sent</value>
+	</data>
+
+	<data name="FeedbackResponseSentLabel" xml:space="preserve">
+		<value>Your response has been sent.</value>
+	</data>
+
+	<data name="UserVerifyScreenTitle" xml:space="preserve">
+		<value>Verification Request Failed</value>
+	</data>
+	<data name="UserVerifyScreenMessage" xml:space="preserve">
+		<value>You must supply a valid confirmation token</value>
+	</data> 
+
+</root>

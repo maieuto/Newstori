@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BackButtonOverridePage BackgroundColor="#dddddd" xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:local="clr-namespace:HyperlocalNews;assembly=HyperlocalNews"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HyperlocalNews.ReportEditScreen"
+xmlns:i18n="clr-namespace:HyperlocalNews;assembly=HyperlocalNews">
+	<ContentPage.Content>
+
+		<AbsoluteLayout>
+
+			<ScrollView Orientation="Vertical" VerticalOptions="Fill" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+
+			<StackLayout x:Name="layout" VerticalOptions="Fill" HorizontalOptions="Fill" >
+
+		   	 		<Button x:Name="Help" 
+		   	 			Text="{i18n:Translate GuideLabel}"
+		            	Clicked = "ShowReportGuide"
+		            	HorizontalOptions="End" 
+		            	BackgroundColor="#eeeeee" />
+	    		
+				<Frame Padding = "10,20,0,0">
+		           	<Label XAlign="Start" Text="{i18n:Translate HeadlineLabel}" />
+	           	</Frame>
+
+	           	<local:StyledEntry x:Name="TitleBox" />
+
+				<Frame Padding = "10,20,0,0">
+		           	<Label XAlign="Start" Text="{i18n:Translate StoryCopyLabel}" />
+	           	</Frame>
+	           	<local:StyledEditor x:Name="ContentBox" HeightRequest="150" ></local:StyledEditor>
+
+
+				<Frame Padding = "10,20,0,0">
+		           	<Label XAlign="Start" Text="{i18n:Translate AdditionalInformationLabel}" />
+	           	</Frame>
+
+	           	<Grid MinimumHeightRequest="40" >
+
+					<Grid.ColumnDefinitions>
+					    <ColumnDefinition Width="0.4*" />
+						<ColumnDefinition Width="0.3*" />
+					    <ColumnDefinition Width="0.3*" />
+					</Grid.ColumnDefinitions>
+
+		           	<DatePicker x:Name="DatePicker"
+		            	Grid.Column="0">
+		           	</DatePicker>
+
+		   	 		<Button x:Name="GetTheImage" 
+		   	 			Text="{i18n:Translate PhotoLabel}"
+		            	Clicked = "AttachPhotos"
+		            	Grid.Column="1" />
+
+		   	 		<Button x:Name="GetTheLocation" 
+		   	 			Text="{i18n:Translate LocationLabel}"
+		            	Clicked = "AttachLocation"
+		            	Grid.Column="2" />
+	           	</Grid>
+
+	           	<Frame Padding = "10,20,10,0" x:Name="PostScopeTitleLabel" IsVisible="false">
+					<Label XAlign="Start" Text="{i18n:Translate SendToLabel}" />
+				</Frame>
+	           	<Button x:Name="PostScopeButton" IsVisible="false" Text="{i18n:Translate NearbyHyperlocalLabel}"
+	          	 		Clicked="SwitchPostScope"/>
+
+
+	           	<Frame Padding = "10,20,10,20" x:Name="PostScopeFixedLabel" IsVisible="false">
+					<Label XAlign="Start" Text="{i18n:Translate SendToLabelCombined}" />
+				</Frame>
+
+	           	<StackLayout x:Name="ImageHolder" IsVisible="false" BackgroundColor="#eeeeee">
+	           	</StackLayout>
+	        </StackLayout>
+
+	        </ScrollView>
+
+
+            <StackLayout x:Name="ActivityView" 
+				AbsoluteLayout.LayoutBounds="0.5, 0.3, 1, 1" AbsoluteLayout.LayoutFlags="All"
+				VerticalOptions="Fill"
+				HorizontalOptions="FillAndExpand"
+				BackgroundColor="Black" 
+				Opacity="0.3"
+				IsVisible="false">
+
+	        	<ActivityIndicator
+					IsVisible="true"
+					IsRunning="true"
+                               Color="#ffffff"
+					VerticalOptions="CenterAndExpand"
+					HorizontalOptions="Center" 
+					/>
+			</StackLayout>
+	            	
+		</AbsoluteLayout>
+
+	</ContentPage.Content>
+</BackButtonOverridePage>

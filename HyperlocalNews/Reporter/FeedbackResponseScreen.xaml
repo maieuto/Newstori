@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="#dddddd" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+   x:Class="HyperlocalNews.FeedbackResponseScreen"
+xmlns:i18n="clr-namespace:HyperlocalNews;assembly=HyperlocalNews"
+xmlns:local="clr-namespace:HyperlocalNews;assembly=HyperlocalNews">
+	<ContentPage.Content>
+		
+		<AbsoluteLayout>
+
+			<ScrollView Orientation="Vertical" VerticalOptions="Fill" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+
+			<StackLayout x:Name="layout" VerticalOptions="Fill" HorizontalOptions="Fill">
+	<StackLayout x:Name="FeedbackSection" IsVisible="false" Padding="0">	
+				<Frame Padding = "10,20,0,0">
+		           	<Label FontSize="Large" XAlign="Start" Text="{i18n:Translate TeamMessageText}" />
+	           	</Frame>
+
+				<Frame Padding = "10,20,0,0">
+		           	<Label XAlign="Start" Text="{i18n:Translate AdditionalLabel}" />
+	           	</Frame>
+	           	<Grid MinimumHeightRequest="40" >
+	           		
+					<Grid.ColumnDefinitions>
+					    <ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+					    <ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+
+	           		<Button x:Name="DateButton" Text="{i18n:Translate DateTimeLabel}" Grid.Column="0" BackgroundColor="#eeeeee" IsEnabled="false" />
+	           		<Button x:Name="PhotosButton" Text="{i18n:Translate PhotoLabel}" Grid.Column="1" BackgroundColor="#eeeeee" IsEnabled="false" />
+	           		<Button x:Name="LocationButton" Text="{i18n:Translate LocationLabel}" Grid.Column="2" BackgroundColor="#eeeeee" IsEnabled="false" />
+
+				</Grid>
+
+				<Frame Padding = "10,20,0,0">
+		           	<Label XAlign="Start" Text="{i18n:Translate TeamMessageLabel}" />
+	           	</Frame>
+
+				<Frame Padding = "10" BackgroundColor="#eeeeee">
+		        	<Label x:Name="Feedback" XAlign="Start"
+	            		Text="{Binding Feedback.Message}" />
+	           	</Frame>
+
+
+
+				<Frame Padding = "10,40,0,0">
+		           	<Label FontSize="Large" XAlign="Start" Text="{i18n:Translate YourReplyLabel}" />
+	           	</Frame>
+
+				<Frame Padding = "10,20,0,0">
+		           	<Label XAlign="Start" Text="{i18n:Translate TeamMessageLabel}" />
+	           	</Frame>
+
+	           	<local:StyledEditor x:Name="FeedbackResponse"
+	            	   	Text="{Binding Feedback.ResponseMessage}"
+	          	 		HeightRequest="150">
+	          	 </local:StyledEditor>
+	          	 		
+				<Frame Padding = "10,20,0,0">
+		           	<Label XAlign="Start" Text="{i18n:Translate AdditionalInformationLabel}" />
+	           	</Frame>
+
+	           	<Grid MinimumHeightRequest="40" >
+
+					<Grid.ColumnDefinitions>
+					    <ColumnDefinition Width="0.4*" />
+						<ColumnDefinition Width="0.3*" />
+					    <ColumnDefinition Width="0.3*" />
+					</Grid.ColumnDefinitions>
+
+		           	<DatePicker x:Name="DatePicker"
+		           		Date="{Binding Date}"
+		            	Grid.Column="0">
+		           	</DatePicker>
+
+		   	 		<Button x:Name="AttachNewPhoto" 
+		   	 			Text="{i18n:Translate PhotoLabel}"
+		            	Clicked = "AttachPhoto"
+		            	Grid.Column="1" />
+
+		   	 		<Button x:Name="ChangeLocation" 
+		   	 			Text="{i18n:Translate LocationLabel}"
+		            	Clicked = "EditLocation"
+		            	Grid.Column="2" />
+	           	</Grid>
+				
+				<StackLayout x:Name="AdditionalImageHolder" IsVisible="false" BackgroundColor="#eeeeee">
+				</StackLayout>
+
+	 </StackLayout>
+				<Frame Padding = "10,20,0,0">
+		           	<Label FontSize="Large" XAlign="Start" Text="{i18n:Translate ReportLabel}" />
+	           	</Frame>
+
+				 <StackLayout x:Name="TheArticle" BackgroundColor="#eeeeee">
+
+				    <Grid MinimumHeightRequest="40" ColumnSpacing="10" RowSpacing="5" Padding="10, 10, 10, 0">
+
+						<Grid.ColumnDefinitions>
+						    <ColumnDefinition Width="7*" />
+							<ColumnDefinition Width="3*" />
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto" />
+							<RowDefinition Height="Auto" />
+							<RowDefinition Height="Auto" />
+						</Grid.RowDefinitions>
+
+
+			    		<Label x:Name="ArticleTitle" XAlign="Start"
+			    			Text="{Binding Title}"
+		    	     	  	Font="Large" 
+		    	     	  	Grid.Column="0"
+		    	     	  	Grid.Row = "0" />
+
+						<Label x:Name="FullNameLabel" XAlign="Start" TextColor="Gray"
+			    			Text="{Binding FullNameLabel}"
+		    	     	  	Font="Small"
+		    	     	  	Grid.Column="0"
+		    	     	  	Grid.Row = "1" />
+
+		    	     	<Label x:Name="Date" XAlign="Start" TextColor="Gray"
+			    			Text="{Binding Date, StringFormat='{}{0:dd/MM/yyyy}'}}"
+		    	     	  	Font="Small"
+		    	     	  	Grid.Column="0"
+		    	     	  	Grid.Row = "1" />
+
+		    	     	<Button x:Name="LocationViewButton" HorizontalOptions="Fill" BackgroundColor="#dddddd"
+			    			Text="{i18n:Translate LocationLabel}"
+		    	     	  	Font="Small" Clicked="ViewLocation" 
+		    	     	  	Grid.Column="1"
+		    	     	  	Grid.Row = "0" />
+
+		    	     	  
+			           	<Label x:Name="Content" XAlign="Start"
+	    	        	   	Text="{Binding Content}"
+		    	     	  	Grid.Column="0" Grid.ColumnSpan="2"
+		    	     	  	Grid.Row = "2" />
+					</Grid>
+
+					<StackLayout x:Name="ImageHolder" IsVisible="false" BackgroundColor="#eeeeee">
+					</StackLayout>
+
+	 			</StackLayout>
+        	</StackLayout>
+
+        	</ScrollView>
+
+            <StackLayout x:Name="ActivityView" 
+        			 AbsoluteLayout.LayoutBounds="0.5, 0.3, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                     VerticalOptions="Fill"
+                     HorizontalOptions="FillAndExpand"
+                     BackgroundColor="Black" 
+                     Opacity="0.3"
+                     IsVisible="false">
+
+	        	<ActivityIndicator
+        				   IsVisible="true"
+                           IsRunning="true"
+                               Color="#ffffff"
+        					VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="Center" 
+                           />
+			</StackLayout>
+
+
+		</AbsoluteLayout>
+
+	</ContentPage.Content>
+</ContentPage>
